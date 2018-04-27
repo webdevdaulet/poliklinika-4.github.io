@@ -1,0 +1,507 @@
+/* Здесь будут храниться стили нашего сайта */
+
+body {
+	margin: 0;
+		background-image: url(../img/Фон/Fon.jpg);
+			font-family: 'Cormorant Garamond', serif;
+				font-size: 16px;
+}
+img {
+	max-width: 100%;
+}
+header {
+	color: #fff;
+}
+.container {
+    margin-bottom: 1px;
+    margin-top: 1px;
+ 	display: flex;
+ 	justify-content: center;
+}
+.col-block {
+	display: flex;
+}
+.text {
+	color: #FF7567 !important;
+    font-size: 18px;
+    margin-bottom: 1px;
+    margin-top: 1px;
+}
+.col-lg-7 {
+	margin-left: auto;
+	font-style: 15px;
+	margin-bottom: 1px;
+    margin-top: 3px;
+}
+.col-lg-5 {
+	margin-left: 650px;
+	margin-right: auto;
+	margin-bottom: 1px;
+    margin-top: 3px;
+}
+.logo-1, .logo-2 {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.container-block {
+	background-color: #4cb9cf;
+	display: flex;
+	justify-content: center;
+}
+
+/* Меню */
+
+.dws-menu {
+	margin-left: 85px;
+}
+
+.dws-menu * {
+	margin: 0;
+	padding: 0;
+}
+
+.dws-menu ul, .dws-menu ol {
+	list-style: none;
+}
+
+.dws-menu > ul {
+ 	display: flex;
+ 	justify-content: center;
+	margin-left: 50px;
+}
+
+.dws-menu > ul li a {
+	display: block;
+	margin-bottom: 1px;
+	padding: 30px 30px 10px 40px;
+	font-style: 10px;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: all 0.3s ease;
+	color: #fff;
+}
+
+.dws-menu > ul li {
+	position: relative;
+}
+
+.dws-menu > ul li > a i.fa {
+	position: absolute;
+	left: 12px;
+	font-style: 1px;
+}
+
+.dws-menu li a:hover {
+	background: #fff;
+	color: #4cb9cf;
+	box-shadow: 1px 5px 10px -5px black;
+	transition: all 0.3s ease;
+	height: 40px;
+}
+
+.dws-menu li ul {
+	position: absolute;
+	min-width: 150px; 
+	display: none;
+}
+
+.dws-menu li > ul li {
+	border: 1px solid #c7c8ca;
+	background-color: #fff;
+}
+
+.dws-menu li > ul li a {
+	padding: 10px;
+	text-transform: none;
+		color: black;
+}
+
+.dws-menu li:hover > ul {
+	display: block;
+}
+
+.icon img {
+	width: 85px;
+	margin-top: 5px;
+}
+
+.text-logo {
+	text-transform: none;
+		text-decoration: none;
+			font-size: 18px;
+				color: #fff;
+} 
+
+.icon-text {
+	margin-left: 10px;
+	margin-top: 15px;
+}
+.dws-menu li a {
+	height: 40px;
+}
+
+/* Специалисты */
+
+.container-1 {
+	display: flex;
+	margin-bottom: 20px;
+	margin-top: 15px;
+}
+.container-1 img {
+	width: 800px;
+}
+.container-1 {
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.vse-specialists {
+	color: #fff;
+}
+.vse-specialists {
+	text-transform: none;
+		text-decoration: none;
+}
+
+.specialists {
+	color: #4cb9cf;
+}
+
+.col-specialists-1, .col-specialists-2, .col-specialists-3, .col-specialists-4, .col-specialists-5, .col-specialists-6, .col-specialists-7, .col-specialists-8, .col-specialists-9, .col-specialists-10 {
+	background-color: #4cb9cf;
+	height: 25px;
+	width: 180px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	outline: none;	 
+}
+
+.vse-specialists {
+	color: #4cb9cf;
+	width: 45%;
+}
+
+.specialists-block {
+	width: 180px;
+}
+.col-lg-6 {
+	width: 180px;
+}
+
+.specialists-block-vse {
+	width: 200px;
+	margin-left: 150px;
+}
+.sp-link-text-center {
+	text-transform: none;
+		text-decoration: none;
+			color: #fff;
+				margin-top: 15px;
+					margin-bottom: 15px;
+						margin-right: 10px;
+							margin-left: 10px;
+
+}
+
+/* Слайд */
+
+.dws-wrapper{
+ max-width: 750px;
+ margin: 0 auto;
+ margin-right: 100px;
+ margin-left: 250px;
+}
+ul.accordion{
+ display: flex;
+ padding: 0;
+}
+ul.accordion li{
+ width: 200px;
+ overflow: hidden;
+ padding: 1px 1px 0;
+ cursor: pointer;
+ display: block;
+ -webkit-box-shadow: 1px 3px 15px #7e807e;
+ -moz-box-shadow: 1px 3px 15px  #7e807e;
+ box-shadow: 1px 3px 15px  #7e807e;
+ -webkit-transition: all 1.5s;
+ -moz-transition: all 1.5s;
+ -ms-transition: all 1.5s;
+ -o-transition: all 1.5s;
+ transition: all 1.5s;
+}
+ul.accordion img{
+ 	width: 500px;
+ 	height: 400px
+}
+.image {
+	height: 400px;
+}
+ul.accordion li:hover{
+ width: 500px;
+ -webkit-box-shadow: 1px 3px 15px #bfbfbf;
+ -moz-box-shadow: 1px 3px 15px #bfbfbf;
+ box-shadow: 1px 3px 15px #bfbfbf;
+ -webkit-transition: all 1s;
+ -moz-transition: all 1s;
+ -ms-transition: all 1s;
+ -o-transition: all 1s;
+ transition: all 1s;
+}
+ul.accordion li:nth-child(2){
+ width: 200px;
+}
+ul.accordion:hover li:nth-child(2){
+ width: 200px;
+}
+ul.accordion li:nth-child(2):hover{
+ width: 500px;
+}
+
+/* Кнопкий быстрого входа */
+
+.uk-width-xxlarge {
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: 500px;
+
+}
+.but-img {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	margin-left: 40px;
+	margin-right: 40px;
+}
+.but-img-1 {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	margin-left: 40px;
+	margin-right: 40px;
+}
+.uk-img-top {
+	width: 100px;
+	height: 100px;
+	max-width: none;
+}
+
+.uk-img-top-1 {
+	width: 100px;
+	height: 100px;
+	max-width: none;
+}
+
+.uk-img {
+    width: 20%;
+}
+
+.uk-width-expand a {
+	text-decoration: none;
+	text-transform: none;
+	color: #4cb9cf;
+	font-size: : 20px;
+}
+
+.uk-width-expand-1 a {
+	text-decoration: none;
+	text-transform: none;
+	color: #4cb9cf;
+	font-size: : 18px;
+}
+
+.uk-width-expand a> strong {
+	font-size: 18px;
+	    text-align: center;
+}
+
+.uk-width-expand-1 a> strong {
+	font-size: 18px;
+	    text-align: center;
+}
+
+.uk-width-expand {
+	display: flex;
+	flex-wrap: wrap;
+	width: 20%;
+}
+.uk-width-expand-1 {
+	display: flex;
+	flex-wrap: wrap;
+	width: 20%;
+}
+
+.uk-flex {
+	background-image: url(../img/Фон/fon-2.jpg);
+	width: 100%;
+	background-repeat: no-repeat;
+}
+
+
+/* Блог руководителя */
+
+.container-4 {
+	background-image: url(../img/Фон/fon-1-1.jpg);
+	height: 400px;
+	width: auto;
+	background-repeat: no-repeat;
+}
+
+.blog {
+	padding-top: 100px;
+	margin-left: 827px;
+	margin-bottom: 50px;
+	margin-top: 0;
+	margin-right: 0;
+	color: #333;
+}
+
+.button-n {
+	margin-top: 20px;
+	margin-left: 820px;
+	box-shadow: 10px 17px 34px 6px rgba(18, 61, 145, 0.83);
+	border-radius: 27px;
+	background-color: #ff7567;
+	text-transform: none;
+	text-decoration: none;
+	font-size: 15px;
+	color: #fff;
+	padding: 20px 60px 20px 60px;
+	font-weight: 700;
+}
+
+/* Новости */
+
+.new-block {
+	height: 250px;
+	margin-left: 350px;
+	display: flex;
+	font-size: 18px;
+	font-family: "Times New Roman", Times, serif;
+}
+
+.new {
+	margin-top: 50px;
+	margin-left: 350px;
+	color: #333;
+	font-family: "Times New Roman", Times, serif;
+}
+
+.new-block-1 {
+	margin: 0;
+	width: 600px;
+	height: 200px;
+}
+.new-block-2 {
+	width: 600px;
+	height: 200px;
+}
+.info-new { 
+	color: #666;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.tema-new {
+	color: #258FA5;
+	text-transform: none;
+	text-decoration: none;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	cursor: pointer;
+}
+
+.data-new {
+	color: #FF7567 !important;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+/* Гос компаний */
+
+.uk-width-5-6 {
+	background-image: url(../img/Фон/fon-3.jpg);
+		background-repeat: no-repeat;
+		background-position: center;
+			height: 500px;
+
+}
+.uk-gos-width a {
+	color: #258FA5;
+	text-decoration: none;
+	text-transform: none;
+	font-size: : 18px;
+}
+.uk-gos-width-1 a {
+	color: #258FA5;
+	text-decoration: none;
+	text-transform: none;
+	font-size: : 18px;	
+}
+.uk-grid-medium {
+	justify-content: center;
+}
+.uk-grid-medium-1 {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.uk-grid-medium-2 {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.uk-grid-small {
+	margin-left: 30px;
+	margin-right: 40px;
+	margin-top: 50px;
+}
+
+.uk-grid-small-1 {
+	margin-top: 50px;
+	margin-left: 100px;
+	margin-right: 50px;
+}
+.uk-grid-small-1-1 {
+	margin-top: 50px;
+	margin-right: 50px;
+}
+.uk-grid-small-1-2 {
+	margin-top: 80px;
+}
+.uk-width-1 img {
+	width: 100px;
+	height: 30px;
+}
+
+/* Яндекс карта */
+
+/* Подвал */
+
+.podval-block {
+	background-color: #4cb9cf;
+	color: #fff;
+	display: flex;
+	width: 100%;
+}
+.contacts-block p {
+	padding-top: 1px;
+	padding-bottom: 1px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+.contacts-block{
+	margin-left: 330px;
+	margin-right: 15px;
+	margin-top: 25px;
+	margin-bottom: 25px;	
+}
+.auther-block {
+	margin-left: 800px;
+	margin-top: 10px;
+	margin-bottom: 25px;
+}
+.auther-block a {
+	text-transform: none;
+	text-decoration: none;
+	color: #fff;
+}

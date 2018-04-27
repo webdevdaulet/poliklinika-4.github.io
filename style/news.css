@@ -1,0 +1,232 @@
+    body {
+	margin: 0;
+		background-image: url(C:/Users/Даулет/Desktop/Сайт/img/Фон/Fon.jpg);
+			font-family: 'Cormorant Garamond', serif;
+				font-size: 16px;
+}
+
+img {
+	max-width: 100%;
+}
+
+header {
+	color: #fff;
+}
+
+.container {
+    margin-bottom: 1px;
+    margin-top: 1px;
+ 	display: flex;
+ 	justify-content: center;
+}
+
+.col-block {
+	display: flex;
+}
+
+.text {
+	color: #FF7567 !important;
+    font-size: 18px;
+    margin-bottom: 1px;
+    margin-top: 1px;
+}
+
+.col-lg-7 {
+	margin-left: auto;
+	font-style: 15px;
+	margin-bottom: 1px;
+    margin-top: 3px;
+}
+
+.col-lg-5 {
+	margin-left: 650px;
+	margin-right: auto;
+	margin-bottom: 1px;
+    margin-top: 3px;
+}
+.logo-1, .logo-2 {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.container-block {
+	background-color: #4cb9cf;
+	display: flex;
+	justify-content: center;
+}
+
+/* Меню */
+
+.dws-menu {
+	margin-left: 85px;
+}
+
+.dws-menu * {
+	margin: 0;
+	padding: 0;
+}
+
+.dws-menu ul, .dws-menu ol {
+	list-style: none;
+}
+
+.dws-menu > ul {
+ 	display: flex;
+ 	justify-content: center;
+	margin-left: 50px;
+}
+
+.dws-menu > ul li a {
+	display: block;
+	margin-bottom: 1px;
+	padding: 30px 30px 10px 40px;
+	font-style: 10px;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: all 0.3s ease;
+	color: #fff;
+}
+
+.dws-menu > ul li {
+	position: relative;
+}
+
+.dws-menu > ul li > a i.fa {
+	position: absolute;
+	left: 12px;
+	font-style: 1px;
+}
+
+.dws-menu li a:hover {
+	background: #fff;
+	color: #4cb9cf;
+	box-shadow: 1px 5px 10px -5px black;
+	transition: all 0.3s ease;
+	height: 40px;
+}
+
+.dws-menu li ul {
+	position: absolute;
+	min-width: 150px; 
+	display: none;
+}
+
+.dws-menu li > ul li {
+	border: 1px solid #c7c8ca;
+	background-color: #fff;
+}
+
+.dws-menu li > ul li a {
+	padding: 10px;
+	text-transform: none;
+		color: black;
+}
+
+.dws-menu li:hover > ul {
+	display: block;
+}
+
+.icon img {
+	width: 85px;
+	margin-top: 5px;
+}
+
+.text-logo {
+	text-transform: none;
+		text-decoration: none;
+			font-size: 18px;
+				color: #fff;
+} 
+
+.icon-text {
+	margin-left: 10px;
+	margin-top: 15px;
+}
+.dws-menu li a {
+	height: 40px;
+}
+
+/* Контакты */
+
+.conteiner-3 {
+	background-color: #fff;
+	width: 50%;
+	height: 800px;
+	margin-left: 19%;
+	margin-right: 10%;
+	margin-bottom: 15px;
+	margin-top: 10px;
+	border: 1px solid #e6e6e6;
+	font-family: "Times New Roman", Times, serif;
+    font-size: 18px;
+}
+
+.info-block {
+	margin-left: 25px;
+	margin-right: 25px;
+	margin-top: 25px;
+    border-bottom: 1px solid #d3d3d3;
+}
+
+.info-block-1 {
+	margin-left: 25px;
+	margin-right: 25px;
+	margin-top: 25px;
+	border-bottom: 1px solid #d3d3d3;
+}
+
+.info-block-1 p {
+	color: black;
+}
+
+.info-block p {
+	color: black;
+}
+
+.info-text-1 {
+	color: #4cb9cf;
+}
+
+.news {
+	color: #4cb9cf;
+	text-transform: none;
+	text-decoration: none;
+	margin-bottom: 15px;
+}
+
+.text-dale {
+	color: #4cb9cf;
+    text-transform: none;
+	text-decoration: none;
+	margin-bottom: 10px;
+}
+
+/* Подвал */
+
+.podval-block {
+	background-color: #4cb9cf;
+	color: #fff;
+	display: flex;
+	width: 100%;
+}
+.contacts-block p {
+	padding-top: 1px;
+	padding-bottom: 1px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+.contacts-block{
+	margin-left: 330px;
+	margin-right: 15px;
+	margin-top: 25px;
+	margin-bottom: 25px;	
+}
+.auther-block {
+	margin-left: 800px;
+	margin-top: 10px;
+	margin-bottom: 25px;
+}
+.auther-block a {
+	text-transform: none;
+	text-decoration: none;
+	color: #fff;
+}
